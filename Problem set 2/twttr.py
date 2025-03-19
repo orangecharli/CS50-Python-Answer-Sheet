@@ -14,3 +14,19 @@ def main():
     print(final_text)
 
 main()
+
+
+#An alternative code using regex module 
+
+import re
+
+def main():
+    text = input("Input: ")
+    remove_vowels(text)
+
+# Convert to lowercase + Remove vowels (both upper and lower case)
+def remove_vowels(text):
+    output = re.sub('[aeiouAEIOU]', "" , text)
+    print(output)
+
+main()
