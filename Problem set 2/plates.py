@@ -25,7 +25,6 @@ def is_valid(s):
 main()
 
 """
-import re
 
 def main():
     plate = input("Plate: ")
